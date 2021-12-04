@@ -27,5 +27,18 @@ saveBtn.on("click", function() {
     localStorage.setItem(time, plan);
 });
 
+function displayTask() {
+
+    $(".hour").each(function() {
+        var currHour = $(this).text();
+        var currPlan = localStorage.getItem(currHour);
+
+        if(currPlan !== null) {
+            $(this).siblings(".task").val(currPlan);
+        }
+    });
+}
+
 
 hourblockColor();
+displayTask();

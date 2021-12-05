@@ -17,6 +17,8 @@ This project requires a coding platform such as Visual studio code for html, css
 
 A user can click on a box next to the desired hour and type in a task. By clicking the save button next to it, this task is then saved to the local storage so it will remain in both the task box and local storage until it is cleared. 
 
+![workday-gif](./gif/workday.gif)
+
 ## License
 
 MIT License

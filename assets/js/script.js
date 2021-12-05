@@ -1,7 +1,9 @@
 var saveBtn = $(".saveBtn");
 
+//display current date
 $("#currentDay").text(moment().format('dddd, MMMM Do'));
 
+//
 function hourblockColor () {
     var hour = moment().hours();
 
